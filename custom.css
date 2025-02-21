@@ -118,7 +118,7 @@
 .card-service-button,
 .card:not(.card-service-item) {
   /* Применяем ко всем карточкам, кроме .card-service-item */
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Плавное изменение transform и box-shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Плавное изменение transform и box-shadow */
 }
 
 .browser-tab:hover,
