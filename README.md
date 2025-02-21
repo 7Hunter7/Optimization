@@ -26,7 +26,7 @@
 
 3. **fs-8 заменен на fs-sm-8**: Для большей гибкости добавил класс `btn`, и заменил `fs-8` на `fs-sm-8`. Это позволит задать размер шрифта, начиная с breakpoint sm.
 
-## Секциея “Оформление заказа в AVITO”:
+## Секция “Оформление заказа в AVITO”:
 
 1. **tab-content, tab-pane**: Оставил классы `tab-content` и `tab-pane`, так как они необходимы для работы Bootstrap Tabs.
 
@@ -35,3 +35,11 @@
 3. **Использованы классы Bootstrap**: `text-center`, `text-md-start`, `mb-_`, `pb-_`, `ps-_`, `d-none`, `d-md-inline-block`, `gap-_`, `w-100`, `alert`, `alert-danger`, `p-3`, `rounded`.
 
 4. **Удалены fs-7 и fs-8**: Заменены на классы `fs-\*` Bootstrap или адаптированы под существующие стили.
+
+## Секция “Варианты доставки AVITO”:
+
+1. **custom-card заменен на card**: Основной класс карточки теперь card Bootstrap. Добавлены классы `shadow`, `d-flex`, `justify-content-center`, `position-relative`, `overflow-hidden`, `rounded`.
+
+2. **Использованы классы Bootstrap**: `col-md-6`, `py-4`, `px-2`, `d-flex`, `flex-column`, `text-center`, `card-title`, `fw-semibold`, `mb-2`, `px-lg-4`, `mb-1`, `btn`, `btn-primary`, `mt-auto`.
+
+3. **Убрана фиксированная высота**: Удалена фиксированная высота для карточек, чтобы контент мог определять высоту.
